@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# -----------------------------------------------------------------------------
+# A script to clone this repository and symlink the dotfiles to the home directory.
+# -----------------------------------------------------------------------------
 
 if ! command -v git &> /dev/null; then
   if ! command -v brew &> /dev/null; then
